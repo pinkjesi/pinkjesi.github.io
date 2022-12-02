@@ -1,0 +1,283 @@
+@font-face {
+    font-family: Mangaba;
+    src: url("../Font/Mangaba.otf");
+  }
+body{
+    overflow-x: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.h1{
+    text-align: left;
+    margin: 0 0 0 0;
+    color: black;
+    font-size: 50px;
+    font-family:"Mangaba";
+    padding-left: 20px;
+}
+
+.navbar{
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+    background-color: rgb(252, 252, 252);
+    font-family: ""Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;"
+}
+
+a{
+    padding-right: 6.5%;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.HomePage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D1E8BA; 
+    text-align: center;
+    font-size: 250%;
+    width: 1400px;
+    height: 100px;
+    margin-left: 0px;
+    font-family: "Mangaba";
+    font-weight: bold;
+}
+
+.h2{
+    letter-spacing: 0.05cm;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Mangaba";
+}
+.Value{
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.71429;
+  font-weight: bolder;
+  text-align:justify;
+}
+.container img{
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    padding-top: 125px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.hf{
+    padding-left: 45%;
+    font-size: 60px;
+    letter-spacing: 0.05cm;
+    font-family: "Mangaba", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.img2{
+    height: 300px;
+    width: 400px;
+}
+
+.img3{
+    height: 300px;
+    width: 340px;
+}
+
+.imagenes img{
+    padding-left: 55px;
+}
+
+.subtitulos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Trebuchet MS';
+}
+
+.subtitulos h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.sub1{
+    padding-left: 60px;
+    padding-right: 4px;
+}
+
+.sub2{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sub3{
+    padding-left: 20px;
+}
+
+.linea{
+    background: #fbfcfb;
+    height: 7px;
+    width: 1340px;
+    position: relative;
+}
+
+.circulo1{
+    width: 35px;
+    height: 35px;
+    background: #99D58D;
+    border-radius: 50%;
+    position: absolute;
+    right: 75%;
+}
+
+.circulo2{
+    width: 35px;
+    height: 35px;
+    background: #99D58D;
+    border-radius: 50%;
+    position: absolute;
+    right: 40%;
+}
+
+.circulo3{
+    width: 35px;
+    height: 35px;
+    background: #99D58D;
+    border-radius: 50%;
+    position: absolute;
+    right: 13%;
+}
+ 
+/*Aqui comienza el css de los puntitos*/
+.contenedor_loader {
+    background-color: #f3f3f3;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    transition: all 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loader, 
+  .loader:before,
+  .loader:after {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    animation: loader 1.5s infinite ease-in-out;
+  }
+
+  .loader {
+    color: black;
+    font-size: 13px;
+    position: relative;
+    animation-delay: -0.16s;
+  }
+
+  .loader:before,
+  .loader:after {
+    content:'';
+    position: absolute;
+    top: 0;
+  }
+
+  .loader:before {
+    left: -3.5em;
+    animation-delay: -0.32s;
+  }
+  .loader:after {
+    left: 3.5em;
+  }
+
+  @keyframes loader {
+   0%,
+   80%,
+   100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+   }
+   40% {
+    box-shadow: 0 2.5em 0 0;
+   }
+  }
+
+.Piedepag{
+    background-color:#99D58D;
+    margin-top:auto;
+    text-align: center;
+}
+    
+.Piedepag .group1{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.Piedepag .group1 .box h1{
+    text-align: left;
+    margin: 0 0 0 0;
+    color: black;
+    font-size: 50px;
+    font-family:"Mangaba";
+    
+}
+.Piedepag .group1 .box img{
+    width:50px;
+}
+.Piedepag .group1 .box icono{
+    width: 50px;
+}
+.Piedepag .group1 .box h2{
+    color:white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.Piedepag .group1 .box li{
+    color: black;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+
+}
+.Piedepag .group1 .box a{
+    display:inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    color:#fff;
+    margin-right: 30px;
+    background-size: 50px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.Piedepag .group1 .box a:hover{
+    color: #f3f3f3;
+}
+.Piedepag .group2{
+    background-color:#D1E8BA;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Trebuchet MS';
+}
+.Piedepag .group2 small{
+    font-size: 15px;
+}
