@@ -1,1 +1,1 @@
-# pinkjesi.github.io/Home.html
+# pinkjesi.github.io
